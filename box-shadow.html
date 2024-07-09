@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input output</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"></div>
+    <div class="box"></div>
+    <h1>Aplikasi Input output sederhana</h1>
+    <label for="">nama</label><br>
+    <input type="text" id="nama" autocomplete="off"><br>
+    <label for="">hobi</label><br>
+    <input type="text" id="hobi"><br>
+    <button onclick="tampil()" class="btn">tampilkan</button>
+    <hr>
+    <div id="output"></div>
+    <script>
+        const output = document.querySelector('#output')
+        const nama = document.querySelector('#nama')
+        const hobi = document.querySelector('#hobi')
+        function tampil(){
+            // alert('tombol berfungsi')
+            // output.innerHTML = nama.value
+            output.innerHTML = `Hallo Nama saya ${nama.value} dan hobi saya adalah ${hobi.value}`
+        }
+    </script>
+</body>
+</html>

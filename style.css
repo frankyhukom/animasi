@@ -1,0 +1,45 @@
+body {
+    margin-top: 50%;
+    padding: 50px;
+    box-sizing: border-box; 
+    min-height: 100vh;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #ff00ff;
+    box-shadow: 10px 15px 20px cyan;
+   
+}
+h1 {
+    margin-top: 50px;
+    height: 100px;
+    width: auto;
+    color: red;
+    
+}
+.btn {
+    padding: 10px 30px;
+    background: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: aqua;
+}
+label {
+    color: blue;
+    font-size: 22px;
+}
+
+
+
+
+
